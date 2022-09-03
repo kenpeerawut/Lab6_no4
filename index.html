@@ -5,14 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<script>
-    function countTheWord(str){
 
-    }
-</script>
+    <script>
+        function countTheWord(str){
+            let sp = (str.split("the")).length;
+            let result = alert("มี The ทั้งหมด "+sp+" คำ")
+           return result;
+        }   
+    </script>
+</head>
+
 <body>
-    The eighth ruler of the Fifth Dynasty in the late 25th century.<br><br>
-    < a href="#" onclick="countTheword('The eighth ruler of the Fifth Dynasty in the late 25th century')">Click for count'the'</a>
+    The eight ruler of the Fifth Dynasty in the late 25th century 
+    <br><br>
+    <a href="#" onclick="countTheWord('The eight ruler of the Fifth Dynasty in the late 25th century')">
+    click for count "The"</a>
 </body>
 </html>
